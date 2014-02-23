@@ -22,3 +22,6 @@ To translate word 'thanks' from English to French, use the WordTranslator like t
 > WordTranslator.exe --word thanks --inputLanguage en --outputLanguage fr 
 Merci
 ```
+
+## License
+MIT
