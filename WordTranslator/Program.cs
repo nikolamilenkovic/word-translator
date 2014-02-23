@@ -62,7 +62,7 @@ namespace WordTranslator
 
         private static string Translate(string Word, string InputLanguage, string OutputLanguage)
         {
-            WebRequest request = WebRequest.Create(string.Format("http://api.mymemory.translated.net/get?q={0}&langpair={1}|{2}&de=nikola.milenkovic@live.com", Word, InputLanguage, OutputLanguage));
+            WebRequest request = WebRequest.Create(string.Format("http://api.mymemory.translated.net/get?q={0}&langpair={1}|{2}&de=your_email@someprovider.com", Word, InputLanguage, OutputLanguage));
             request.Method = "GET";
             WebResponse response = request.GetResponse();
                       
